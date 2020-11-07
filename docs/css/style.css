@@ -1,0 +1,146 @@
+
+.navbar{
+    background-color: darkgray;
+
+    border-bottom: 0 !important; /* Did not want a gap between navbar and container*/
+}
+.btn {
+padding: 0px;
+margin: 0px;
+}
+.container{
+    width: 100%;
+    background-color: darkgray;
+    
+}
+
+#sal_header {
+    max-width: 900px;
+    width: 100%;
+    
+}
+
+.hope_img{
+       background-image: url("../images/sal.jpg");
+    height: 300px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+.jumbotron{
+    padding-top: 10px !IMPORTANT ;
+    background-color: darkgray;
+    max-height: 150px;
+      
+}
+
+.jumbotron h2{
+    color: red;
+     text-shadow: none;
+}
+#hopeDSAL {
+    
+      font-family: 'Syne Mono', monospace; 
+    color: whitesmoke;
+
+    
+     text-shadow: 3px 3px black ;
+}
+
+#myCarousel{
+   background:darkgray !important;
+    align-content: center;
+}
+.carousel-control.left {
+    background:darkgray !important;
+}
+.carousel-control.right {
+    background:darkgray !important;
+}
+.carouselText {
+    text-align: center;
+    
+}
+
+html {
+  position: relative;
+ /* min-height: 80%;*/
+    
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+    margin-top: 50px;
+
+}
+
+
+.footer > .container {
+  width: 20%;
+  margin:auto;
+   /* background-color: aqua; */
+     background-color: transparent;
+   /* background-color: white;*/
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+   
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+ background: #55ACEE;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+    align-self: center;
+  bottom: 60px;
+  height: 60px;
+  
+  
+}
+
+/* Items from years */
+.img-responsive {
+    margin: 0 auto;
+}
+.blank3{
+    height: 300px;
+}
+
+.panel {
+    align-items: center;
+    height: 300px;
+    overflow: auto;
+    
+}
+
+.pfeedback {
+    align-items: center;
+    height: 600px;
+    overflow: none;
+}
+
+.panel_picture {
+    max-width: 95%;
+    
+}
