@@ -34,7 +34,7 @@ margin: 0px;
       
 }
 
-.jumbotron h2{
+#red_closed {
     color: red;
      text-shadow: none;
 }
@@ -129,7 +129,14 @@ body {
 
 .panel {
     align-items: center;
-    height: 300px;
+    height: 400px;
+    overflow: auto;
+    
+}
+
+.pResult {
+    align-items: center;
+    height: 700px;
     overflow: auto;
     
 }
@@ -142,5 +149,5 @@ body {
 
 .panel_picture {
     max-width: 95%;
-    
+    background-color: white;
 }
