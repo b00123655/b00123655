@@ -5,23 +5,23 @@
     border-bottom: 0 !important; /* Did not want a gap between navbar and container*/
 }
 .btn {
-padding: 0px;
-margin: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 .container{
     width: 100%;
     background-color: darkgray;
-    
+
 }
 
 #sal_header {
     max-width: 900px;
     width: 100%;
-    
+
 }
 
 .hope_img{
-       background-image: url("../images/sal.jpg");
+    background-image: url("../images/sal.jpg");
     height: 300px;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -31,24 +31,29 @@ margin: 0px;
     padding-top: 10px !IMPORTANT ;
     background-color: darkgray;
     max-height: 150px;
-      
+
 }
 
 #red_closed {
     color: red;
-     text-shadow: none;
+    text-shadow: none;
+    
+}
+
+.pink2blue{
+    background-image: linear-gradient(pink, blue);
 }
 #hopeDSAL {
-    
-      font-family: 'Syne Mono', monospace; 
+
+    font-family: 'Syne Mono', monospace; 
     color: whitesmoke;
 
-    
-     text-shadow: 3px 3px black ;
+
+    text-shadow: 3px 3px black ;
 }
 
 #myCarousel{
-   background:darkgray !important;
+    background:darkgray !important;
     align-content: center;
 }
 .carousel-control.left {
@@ -59,64 +64,66 @@ margin: 0px;
 }
 .carouselText {
     text-align: center;
-    
+
 }
 
 html {
-  position: relative;
- /* min-height: 80%;*/
-    
+    position: relative;
+    /* min-height: 80%;*/
+
 }
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
     margin-top: 50px;
 
 }
 
 
 .footer > .container {
-  width: 20%;
-  margin:auto;
-   /* background-color: aqua; */
-     background-color: transparent;
-   /* background-color: white;*/
+    width: 20%;
+    margin:auto;
+    /* background-color: aqua; */
+    background-color: transparent;
+    /* background-color: white;*/
 }
-
+.main_picture{
+    border-radius: 5%;
+}
 .fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-   
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+
 }
 
 .fa:hover {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 /* Facebook */
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
 
 /* Twitter */
 .fa-twitter {
- background: #55ACEE;
-  color: white;
+    background: #55ACEE;
+    color: white;
 }
 
 .footer {
-  position: fixed;
-  width: 100%;
+    position: fixed;
+    width: 100%;
     align-self: center;
-  bottom: 60px;
-  height: 60px;
-  
-  
+    bottom: 60px;
+    height: 60px;
+
+
 }
 
 /* Items from years */
@@ -131,20 +138,27 @@ body {
     align-items: center;
     height: 400px;
     overflow: auto;
-    
+
 }
 
 .pResult {
     align-items: center;
     height: 700px;
     overflow: auto;
-    
+
+}
+.fRight{
+    float: right;
+    display: inline;
+}
+.fInline{
+    display: inline;
 }
 
 .pfeedback {
     align-items: center;
     height: 600px;
-    
+
 }
 
 .panel_picture {
