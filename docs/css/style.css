@@ -79,22 +79,24 @@ body {
 
 }
 
-
 .footer > .container {
-    width: 20%;
-    margin:auto;
+    width: 100%;
+    
     /* background-color: aqua; */
     background-color: transparent;
     /* background-color: white;*/
+    align-self: center;
 }
+
 .main_picture{
     border-radius: 5%;
 }
 .fa {
     padding: 10px;
+    
     font-size: 30px;
     width: 50px;
-    text-align: center;
+    text-align: right;
     text-decoration: none;
     border-radius: 50%;
 
@@ -119,13 +121,20 @@ body {
 .footer {
     position: fixed;
     width: 100%;
-    align-self: center;
-    bottom: 60px;
+    background-color: #222;
+    
+    margin-left: -15px;
+    bottom: 00px;
     height: 60px;
 
 
 }
-
+.txtWhite{
+    font-family: 'Syne Mono', monospace; 
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
 /* Items from years */
 .img-responsive {
     margin: 0 auto;
